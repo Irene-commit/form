@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title id="heading">Registration form</title> 
+    <style>
+      
+    </style>
+    <link rel="stylesheet" href="./style.css"> 
+</head>
+<body>
+   <div>
+      <p>
+         <span>WE ARE TRYING TO CATCH UP</span>
+      </p>
+   </div>
+   <H1 style="color: black; text-align: center;
+   margin: 100px, 2px, 3px, 6px;">REGISTRATION FORM</H1>
+    <main>
+        <form action="#" method="post">
+         <!--Personal Information-->
+         <fieldset>
+            <legend id="personal-info">Personal Information</legend>
+            <label for="first name"> First Name:</label>
+            <input type="text" id="first-name" name="first-name" required>
+            <label for="last-name"> Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+         </fieldset>
+         <!--Address Information-->
+         <fieldset>
+            <legend id="address-Info" class="class-address">Address Information</legend>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address">
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city">
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state">
+            <label for="zip">Zip Code</label>
+            <input type="text" id="zip" name="zip">
+         </fieldset>
+         <!--Account Information-->
+         <fieldset>
+            <legend>Account-Information</legend>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password</label>
+            <input type="text" id="password" name="password" required>
+         </fieldset>
+         <!--Preferences-->
+         <Fieldset>
+            <Legend>Preferences</Legend>
+            <label for="newsletter">Subscribe to Newsletter</label>
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <label for="fav-colour">Favourite Colour:</label>
+            <input type="color" id="fav-colour" name="fav-colour">
+            <label for="rating">Rate our Services:</label>
+            <input type="range" id="rating" name="rating" min="1" max="10">
+         </Fieldset>
+         <!--File upload-->
+         <fieldset>
+            <legend>File upload</legend>
+            <label for="profile-pic"> Upload Profile Picture:</label>
+            <input type="file" id="profile-pic" name="profile-pic">
+         </fieldset>
+         <!--comments-->
+         <fieldset>
+            <legend>Comments</legend>
+            <label for="comments">Your Comments:</label>
+            <textarea name="comments" id="comments" rows="4"></textarea>
+         </fieldset>
+         <!--Submit Button-->
+         <button type="submit" style="color: aqua;">submit</button>
+         <button id="uppercase" type="click-me"> click</button>         
+        </form>
+    </main>
+    <script>
+      const title= document.getElementById('heading');
+      const document.getElementById("click-me")
+      click-me.addEventListener('click', function(){
+         title.textContent.toUpperCase();
+      });
+    </script>
+</body>
+</html>
